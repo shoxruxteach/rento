@@ -1,0 +1,348 @@
+*{
+    padding: 0;
+    margin: 0;
+   }
+   .navbar{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+   }
+   .nav1 {
+    margin-right: 350px;
+    font-size: 20px;
+   }
+   a{
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-left: 45px;
+    color: black;
+   }
+   .sign a{
+    background-color: aqua;
+   }
+   p{
+    margin-left: 40px;
+    background-color: #f6d601;
+    display: inline-block;
+    padding: 7px 35px;
+    border-radius: 30px;
+    color: #000;
+    font-size: 17px;
+   }
+   a:hover{
+    color: #f6d601;
+   }
+   p:hover{
+    color: white;
+    cursor: pointer;
+   }
+   
+   .katta_img {
+    width: 100%;
+    height: 75vh;
+    margin-top: 30px;
+    background-image: url(banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   .img img{
+    margin-left: 250px;
+   }
+   .main_title{
+    color: white;
+    text-align: center;
+    font-family:'Righteous', cursive ;
+   }
+   .button12 button{
+    margin-top: 100px;
+    width: 160px;
+    height: 60px;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    transition: ease-in all 0.5s;
+   }
+   .button12 button:hover{
+    background-color: #f6d601;
+    border-radius: 25px;
+    transition: ease-in all 0.5s;
+   }
+   .h44 h4{
+    margin-top: 10px;
+    font-size: 25px;
+   }
+   .h55 h5{
+    font-size: 25px;
+    margin-top: 10px;
+   }
+   .h33 h3{
+    font-size: 40px;
+    color: #f6d601;
+    margin-top: 20px;
+   }
+   .h22 h2{
+    font-size: 50px;
+    margin-top: 40px;
+   }
+   .h11 h1{
+    margin-top: 40px;
+    font-size: 60px;
+   }
+   .banner-main {
+    text-align: center;
+    margin-top: 50px;
+   }
+   .banner-main h2{
+    font-size: 40px;
+    font-family: 'Righteous', cursive;
+   }
+   .banner-main h4{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 15px;
+   }
+   .main_car{
+    justify-content: center;
+    display: flex;
+   }
+   .main_car img{
+    margin-top: 65px;
+   }
+   .car1 h3{
+    color: #0c0c0e;
+    background-color: #f6d601;
+    font-size: 30px;
+    height: 90px;
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   }
+   .car2 h3{
+    color: #0c0c0e;
+    background-color: #f6d601;
+    font-size: 30px;
+    height: 90px;
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   }
+   .car3 h3{
+    color: #0c0c0e;
+    background-color: #f6d601;
+    font-size: 30px;
+    height: 90px;
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   }
+   .car1, .car2, .car3{
+    text-align: center;
+   }
+   .bestcar {
+    position: relative;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    margin-top: 100px;
+   }
+   .input{
+    position:absolute;
+    top: 10%;
+    right: 20%;
+    background-color: white;
+    width: 500px;
+    height: 580px;
+   }
+   .input h3{
+    margin-top: 50px;
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    text-align: center;
+   }
+   .select{
+    color: darkgray;
+    font-size: 110px;
+    margin-left: 35px;
+   }
+   .select select{
+    width: 430px;
+    height: 55px;
+   }
+   .select1{
+    color: darkgray;
+    font-size: 60px;
+    margin-left: 35px;
+   }
+   .select1 select{
+    width: 430px;
+    height: 55px;
+   }
+   .contactus{
+    border: darkgray solid 1px;
+    padding: 0px 19px;
+    width: 430px;
+    height: 55px;
+    background: #fff;
+    color: #000;
+    font-size: 18px;
+    margin-left: 35px;
+    margin-top: 20px;
+   }
+   .select2{
+    color: darkgray;
+    font-size: 60px;
+    margin-left: 35px;
+   }
+   .select2 select{
+    width: 430px;
+    height: 55px;
+   }
+   .button11 button{
+    width: 180px;
+    margin-left: 150px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: #000;
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    transition: ease-in all 0.5s;
+   }
+   .button11 button:hover{
+    background-color: #f6d601;
+    transition: ease-in all 0.5s;
+    border-radius: 30px; 
+    color: #000;
+   }
+   .titlepage1{
+    margin-top: 100px;
+    text-align: center;
+   }
+   .titlepage1 h1{
+    font-family: 'Righteous', cursive;
+   }
+   .titlepage1 h4{
+    margin-top: 15px;
+    font-size: 20px;
+   }
+   .titlepage .choose_box span {
+    color: #fff;
+    background-color: #23262d;
+    border-radius: 60px;
+    border: #f6d601 solid 5px;
+    padding: 20px 27px;
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 900px;
+    margin-top: 70px;
+   }
+   .choose_box h3{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+   }
+   .titlepage .choose_box1 span {
+    color: #fff;
+    background-color: #23262d;
+    border-radius: 60px;
+    border: #f6d601 solid 5px;
+    padding: 20px 27px;
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 900px;
+    margin-top: 70px;
+   }
+   .choose_box1 h3{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+   }
+   .titlepage .choose_box2 span {
+    color: #fff;
+    background-color: #23262d;
+    border-radius: 60px;
+    border: #f6d601 solid 5px;
+    padding: 20px 27px;
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 900px;
+    margin-top: 70px;
+   }
+   .choose_box2 h3{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+   }
+   .contaner{
+    text-align: center;
+    background-color: #23262d;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    padding-top: 790px;
+   }
+   .Hurshed{
+    text-transform: uppercase;
+  margin-top: -780px;
+   color: #fff;
+   
+   font-family: 'Righteous', cursive;
+   }
+   .img_loyha{
+    margin-top: 20px;
+   }
+   .img_loyha1 {
+    position: absolute;
+    margin-left: 839px;
+    background-color: #fff;
+    width: 950px;
+    height: 300px;
+    margin-top:00 ;
+    margin-left: 450px;
+    transform:skew(-20deg);
+   }
+   .img_loyha1 h3{
+    margin-left: -82px;
+   }
+   .retro{
+    margin-left: -82px;
+   }
+   .span{
+    font-size: 21px;
+    line-height: 66px;
+    color: #000;
+    text-align: center;
+   }
+   .cotril{
+    text-align: center;
+
+   }
+  .contril1{
+    
+    color: #414141;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Righteous', cursive;
+}
+.fot1{
+  color: #f6d601;
+  font-family: 'Righteous', cursive;
+}
+.fot1 span{
+  color: #414141;
+  font-family: 'Righteous', cursive;
+}
+.footer{
+  background-color: #0c0c0e;
+  color: white;
+  text-align: center;
+}  
